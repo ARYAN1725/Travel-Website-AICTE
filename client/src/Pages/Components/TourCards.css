@@ -1,0 +1,67 @@
+.cardWrapper {
+    margin-top: 100px;
+    background-color: #f6f6f6;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* 3 cards per row */
+    gap: 10px;
+    /* Space between cards */
+    justify-items: center;
+    /* Center cards horizontally */
+    margin: 20px auto;
+    /* max-width: 1200px; */
+    /* Keeps layout neat on large screens */
+}
+
+.card {
+    border: 1px solid hsl(0, 7%, 80%);
+    width: 400px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 15px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+    border: 2px solid red;
+}
+
+.card h2,
+h3,
+p {
+    text-align: center;
+}
+
+.cardButton {
+    color: white;
+    font-weight: bold;
+    background-color: hsl(0, 86%, 57%);
+    padding: 10px;
+    cursor: pointer;
+}
+
+.card p {
+    margin-top: 0;
+    font-size: 1.1em;
+}
+
+.card h3 {
+    font-size: 1.25em;
+}
+
+.cardButton:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.divTitle {
+    text-align: center;
+}
