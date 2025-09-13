@@ -9,8 +9,6 @@
     justify-items: center;
     /* Center cards horizontally */
     margin: 20px auto;
-    /* max-width: 1200px; */
-    /* Keeps layout neat on large screens */
 }
 
 .card {
