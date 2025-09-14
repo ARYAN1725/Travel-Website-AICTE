@@ -5,6 +5,12 @@ import Card from './Card';
 const TourCards = () => {
   const cardData = [
     {
+      country: "🇮🇳 India",
+      image: "/assets/india.png",
+      title: "Culture and diversity",
+      description: "A beautiful, cultural and diverse country."
+    },
+    {
       country: "🇫🇷 France",
       image: "/assets/paris.jpg",
       title: "7 exciting days, 7 beautiful cities",

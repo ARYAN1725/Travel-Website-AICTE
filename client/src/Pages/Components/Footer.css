@@ -1,0 +1,89 @@
+.footerWrapper {
+    margin-top: 0px;
+    background-color: #f6f6f6;
+    padding: 10px;
+    min-height: 430px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.contactForm {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 300px;
+    align-items: center;
+}
+
+.contactForm input {
+    width: 200px;
+    height: 30px;
+    font-size: 1em;
+}
+
+.contactForm button {
+    width: 200px;
+    padding: 7px;
+    background-color: hsl(0, 56%, 68%);
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.contactForm button:hover {
+    transform: scale(1.05);  /* Pop-up hover effect */
+}
+
+.siteLinks{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.links{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.links a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+    font-size: 1.2em;
+    gap: 10px;
+}
+
+.AboutUs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.AboutUs p{
+    font-size: 1.2em;
+    align-items: justify;
+    align-content: justify;
+}
+
+.AboutUs button{
+    width: 200px;
+    padding: 8px;
+    color: white;
+    font-weight: bold;
+    background-color: hsl(0, 56%, 68%);
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.AboutUs button:hover {
+    transform: scale(1.05);  /* Pop-up hover effect */
+}
