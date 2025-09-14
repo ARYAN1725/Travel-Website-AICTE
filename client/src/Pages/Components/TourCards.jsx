@@ -1,6 +1,7 @@
 import React from 'react';
 import './TourCards.css';
 import Card from './Card';
+import { Routes, Route, Link } from "react-router-dom";
 
 const TourCards = () => {
   const cardData = [

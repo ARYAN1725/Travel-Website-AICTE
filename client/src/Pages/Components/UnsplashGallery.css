@@ -1,0 +1,51 @@
+.cardComponents {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  /* ensures minimal empty space at bottom */
+  height: 430px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border 0.3s ease;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+  border: 2px solid red;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  /* let image keep its aspect ratio */
+  max-height: 350px;
+  /* restrict max height */
+  object-fit: cover;
+  /* crop image to fit nicely */
+}
+
+.card h3 {
+  margin: 8px 0 4px 0;
+  font-size: 1rem;
+}
+
+.card p {
+  margin: 0 10px 10px 10px;
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.4;
+
+}

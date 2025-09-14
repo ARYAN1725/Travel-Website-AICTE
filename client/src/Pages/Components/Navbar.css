@@ -1,0 +1,67 @@
+.navigationUl {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.navigationUl a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 10px;
+    margin: 10px;
+    position: relative;
+    display: inline-block;
+    /* Needed for underline effect */
+    transition: transform 0.3s ease;
+}
+
+.navigationUl a:hover {
+    transform: scale(1.1);
+}
+
+.navigationUl a::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: white;
+    transition: width 0.3s ease;
+}
+
+.navigationUl a:hover::after {
+    width: 100%;
+}
+
+.navbar h2 {
+    color: white;
+    margin: 10px;
+}
+
+.navbar h2:hover {
+    transform: scale(1.1);
+}
+
+.navbar h2::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: white;
+    transition: width 0.3s ease;
+}
+
+.navbar h2:hover::after {
+    width: 100%;
+}
+
+.navbarWrapper{
+    background-image: url('/assets/purple_mist.jpg');
+}
