@@ -1,6 +1,8 @@
-.mainWrapper{
+.mainWrapper {
     background-color: #f6f6f6;
-}
+    margin: 0 auto;       /* centers wrapper */
+    padding: 20px;        /* adds breathing space so text doesn't touch edges */
+  }
 
 .mapInfo{
     margin-top: 50px;

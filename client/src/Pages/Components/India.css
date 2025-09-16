@@ -1,6 +1,8 @@
-.mainWrapper{
+.mainWrapper {
     background-color: #f6f6f6;
-}
+    margin: 0 auto;       /* centers wrapper */
+    padding: 20px;        /* adds breathing space so text doesn't touch edges */
+  }
 
 .mapInfo{
     margin-top: 50px;
@@ -13,11 +15,13 @@
 .textContent{
     gap: 10px;
     text-align: justify;
+    margin-right: 8px;
 }
 .textContent p{
     font-size: 1.2em;
     text-align: justify;
     gap: 10px;
+    margin-right: 8px;
 }
 
 .textContent h2{
