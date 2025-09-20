@@ -7,7 +7,7 @@ const Card = ({ country, image, title, description }) => {
   const words = (country.match(/[A-Za-z]+/g) || []);
   const countryRoute = words.length ? `/${words.join('-').toLowerCase()}` : '/';
   return (
-    <div className="tourCard">
+    <div className="tourCard" id="tourCard">
       <h2 className="cardHeader"> {country} </h2>
       <div className="image">
         <img src={image} alt={country} />

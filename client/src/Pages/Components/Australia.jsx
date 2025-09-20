@@ -3,6 +3,7 @@ import './Australia.css';
 import Navbar from './Navbar';
 import UnsplashGalleryAustralia from './UnsplashGalleryAustralia';
 import Footer from './Footer';
+import Weather from './Weather';
 
 const Australia = () => {
     return (
@@ -26,7 +27,11 @@ const Australia = () => {
 
                 <div className="weatherInfo">
                     <div className="imageContent">
-                        <img src="/assets/australia_map.jpg" alt="Dummy image" />
+                    <div>
+                            <h2>Australia Travel Guide</h2>
+                            <Weather city="Sydney" />
+                        </div>
+                        {/* <img src="/assets/australia_map.jpg" alt="Dummy image" /> */}
                     </div>
 
                     <div className="textContent">

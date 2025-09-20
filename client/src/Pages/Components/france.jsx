@@ -3,6 +3,7 @@ import './france.css';
 import Navbar from './Navbar';
 import UnsplashGallery from './UnsplashGallery';
 import Footer from './Footer';
+import Weather from './Weather';
 
 const France = () => {
     return (
@@ -26,10 +27,15 @@ const France = () => {
 
                 <div className="weatherInfo">
                     <div className="imageContent">
-                        <img src="/assets/france_map.png" alt="Dummy image" />
+                    <div>
+                            <h2>France Travel Guide</h2>
+                            <Weather city="Paris" />
+                        </div>
+                        {/* <img src="/assets/france_map.png" alt="Dummy image" /> */}
                     </div>
 
                     <div className="textContent">
+                        
                         <h2>Weather in France</h2>
                         <p>Spring and autumn bring mild, pleasant temperatures perfect for sightseeing, while summer is warm and lively with festivals across the country.</p>
                         <hr />

@@ -1,0 +1,78 @@
+.loginWrapper {
+    background-image: url("/assets/beachBackground.jpg");
+    background-size: cover;
+    background-position: center;
+    /* keeps main focus centered */
+    background-repeat: no-repeat;
+    /* prevents tiling */
+    height: 100vh;
+    /* full viewport height */
+    display: flex;
+    /* for centering the login box */
+    justify-content: center;
+    /* center horizontally */
+    align-items: center;
+}
+
+.loginForm {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    max-width: 400px;
+    width: 100%;
+}
+
+.loginForm h2{
+    text-align: center;
+}
+
+.formElements{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.inputBar{
+    width: 350px;
+    height: 2em;
+}
+
+.inputLabel{
+    font-size: 1.2em;
+    text-align: left;
+    width: 90%;
+}
+
+.submitButton{
+    color: white;
+    background-color: hsla(0, 70%, 66%, 0.741);
+    width: 100px;
+    /* height: 2em; */
+    /* align-content: center; */
+    /* display: flex; */
+    /* align-items: center; */
+    padding: 10px;
+    cursor: pointer;
+}
+
+.submitButton:hover {
+    background-color: hsla(336, 70%, 40%, 0.805);
+  }
+
+.forgot-Signup{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.forgot-Signup a {
+    text-decoration: none;
+    color: hsl(200, 70%, 40%);
+    font-size: 0.9em;
+  }
+  
+  .forgot-Signup a:hover {
+    text-decoration: underline;
+  }

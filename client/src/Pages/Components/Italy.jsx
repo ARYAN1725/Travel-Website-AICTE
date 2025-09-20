@@ -3,6 +3,7 @@ import './Italy.css';
 import Navbar from './Navbar';
 import UnsplashGalleryItaly from './UnsplashGalleryItaly';
 import Footer from './Footer';
+import Weather from './Weather';
 
 const Italy = () => {
     return (
@@ -26,7 +27,11 @@ const Italy = () => {
 
                 <div className="weatherInfo">
                     <div className="imageContent">
-                        <img src="/assets/italy_map.png" alt="Dummy image" />
+                    <div>
+                            <h2>ItalyTravel Guide</h2>
+                            <Weather city="Venice" />
+                        </div>
+                        {/* <img src="/assets/italy_map.png" alt="Dummy image" /> */}
                     </div>
 
                     <div className="textContent">

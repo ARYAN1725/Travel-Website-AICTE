@@ -3,6 +3,7 @@ import './India.css';
 import Navbar from './Navbar';
 import UnsplashGalleryIndia from './UnsplashGalleryIndia';
 import Footer from './Footer';
+import Weather from './Weather';
 
 const France = () => {
     return (
@@ -26,7 +27,11 @@ const France = () => {
 
                 <div className="weatherInfo">
                     <div className="imageContent">
-                        <img src="/assets/india_map.jpg" alt="Dummy image" />
+                    <div>
+                            <h2>India Travel Guide</h2>
+                            <Weather city="Mumbai" />
+                        </div>
+                        {/* <img src="/assets/india_map.jpg" alt="Dummy image" /> */}
                     </div>
 
                     <div className="textContent">

@@ -3,6 +3,7 @@ import './Usa.css';
 import Navbar from './Navbar';
 import UnsplashGalleryUsa from './UnsplashGalleryUsa';
 import Footer from './Footer';
+import Weather from './Weather';
 
 const France = () => {
     return (
@@ -26,7 +27,11 @@ const France = () => {
 
                 <div className="weatherInfo">
                     <div className="imageContent">
-                        <img src="/assets/usa_map.jpg" alt="Dummy image" />
+                    <div>
+                            <h2>USA Travel Guide</h2>
+                            <Weather city="Washington DC" />
+                        </div>
+                        {/* <img src="/assets/usa_map.jpg" alt="Dummy image" /> */}
                     </div>
 
                     <div className="textContent">
