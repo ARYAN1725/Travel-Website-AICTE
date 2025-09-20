@@ -1,0 +1,27 @@
+.aboutusWrapper{
+    margin: 10px;
+    background-color: #f6f6f6;
+}
+
+.image-text {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    gap: 20px;
+    align-items: center; 
+    margin: 20px 0;
+    margin-right: 15px;
+}
+
+.textPara{
+    font-size: 1.2em;
+    text-align: justify;
+}
+
+.happyFamilyWrapper{
+    display: grid;
+    grid-template-columns: 62% 38%; /* Text takes 70%, Image takes 30% */
+    gap: 20px; /* Space between text and image */
+    align-items: center; /* Vertically center content */
+    margin: 40px 0; /* Optional spacing above and below */
+    padding: 20px;
+}
